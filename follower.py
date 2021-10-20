@@ -54,7 +54,7 @@ class mymobibot_follower():
         self.sonar_R = Range()
 
         # ROS SETUP
-        # initialize subscribers for reading encoders and publishers for performing position control in the joint-space
+        # Initialize subscribers for reading encoders and publishers for performing position control in the joint-space
         # Robot
         self.velocity_pub = rospy.Publisher('/mymobibot/cmd_vel', Twist, queue_size=1)
         self.joint_states_sub = rospy.Subscriber('/mymobibot/joint_states', JointState, self.joint_states_callback, queue_size=1)
