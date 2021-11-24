@@ -6,5 +6,5 @@ The current project has been createed with ROS and it was teasted in gazebo simu
 
 The robotic vehicle is equiped with 3 distanse sensors in the front with continiously updatable values. These values are fed as an input at a PID controller to provide as an output the linear and angular velocity. This way the robot can consistenly update its velocity and position due to keep "following" the obstacles along the way.
 
-# Lisence
+# License
 https://choosealicense.com/licenses/mit/
